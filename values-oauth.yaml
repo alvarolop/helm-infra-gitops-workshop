@@ -6,4 +6,4 @@ oauth:
     data: gt6ajq01GKlb1zcVEpO6PobaBluEz2Y9
   ldap:
     sync:
-      ldap_url: 'ldap://54.76.87.73:30389'
+      ldap_url: 'ldap://10.0.76.253:30389'
