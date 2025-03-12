@@ -1,5 +1,11 @@
-oauth:
-  enabled: false
+  enabled: true # Enable dependency
+  keycloak: # Update chart values
+    clientid: myclient-22
+    issuer: https://keycloak-ingress-keycloak.apps.argo-hub.sandbox2414.opentlc.com/realms/myrealm-22;
+    data: gt6ajq01GKlb1zcVEpO6PobaBluEz2Y9
+  ldap:
+    sync:
+      ldap_url: 'ldap://54.76.87.73:30389'
 bookinfo:
   enabled: false
 operators: 
